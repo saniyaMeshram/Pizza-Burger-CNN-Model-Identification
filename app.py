@@ -121,7 +121,7 @@ class_names = [
 # 8. STREAMLIT UI
 # =========================================================
 
-st.title("⌨️🖱️ Image Classifier: Burger vs Pizza")
+st.title(" Image Classifier: Burger vs Pizza")
 
 st.write(
     "Upload an image and the CNN model will classify it "
