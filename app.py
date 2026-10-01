@@ -112,8 +112,8 @@ model = load_model()
 # =========================================================
 
 class_names = [
-    "keyboard",
-    "mouse"
+    "Burger",
+    "Pizza"
 ]
 
 
@@ -121,11 +121,11 @@ class_names = [
 # 8. STREAMLIT UI
 # =========================================================
 
-st.title("⌨️🖱️ Image Classifier: Mouse vs Keyboard")
+st.title("⌨️🖱️ Image Classifier: Burger vs Pizza")
 
 st.write(
     "Upload an image and the CNN model will classify it "
-    "as either a mouse or a keyboard."
+    "as either a Burger or a Pizza."
 )
 
 
